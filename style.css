@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-color: #bcb8b1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 5rem;
+}
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game {
+  height: 65vmin;
+  width: 65vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.button {
+  width: 18vmin;
+  height: 18vmin;
+  border: none;
+  border-radius: 1vw;
+  background-color: #8a817c;
+  font-size: 9vmin;
+  color: #f4f3ee;
+}
+.button:hover {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+.reset-button {
+  width: 20vmin;
+  height: 8vmin;
+  font-size: 3vmin;
+  color: #f4f3ee;
+  background-color: #8a817c;
+  border: none;
+  border-radius: 1vw;
+}
+.reset-button:hover {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+.reset-restart {
+  display: flex;
+  justify-content: space-evenly;
+}
+.playagain-button {
+  width: 20vmin;
+  height: 8vmin;
+  font-size: 3vmin;
+  color: #f4f3ee;
+  background-color: #8a817c;
+  border: none;
+  border-radius: 1vw;
+}
+.playagain-button:hover {
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+}
+#msg {
+  color: #f4f3ee;
+  font-size: 5vmin;
+}
+.hide {
+  display: none;
+}
+
+@media (max-width: 430px) {
+  main {
+    margin-top: 100px;
+  }
+  .playagain-button {
+    width: 40vw;
+    height: 5vh;
+    font-size: 4vw;
+  }
+  .msg-container {
+    font-size: 10vw;
+    margin-top: 50px;
+  }
+  .heading {
+    font-size: 15vw;
+    margin-bottom: 50px;
+  }
+  .container {
+    height: 40vh;
+  }
+  .reset-button {
+    margin-top: 10px;
+    width: 40vw;
+    height: 8vh;
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 850px) {
+  main {
+    margin-top: 110px;
+  }
+  .playagain-button {
+    width: 30vw;
+    height: 7vh;
+    font-size: 4vw;
+  }
+  #msg {
+    font-size: 4vw;
+  }
+  .msg-container {
+    font-size: 10vw;
+    margin-top: 50px;
+  }
+  .heading {
+    font-size: 15vw;
+    margin-bottom: 50px;
+  }
+  .container {
+    height: 40vh;
+  }
+  .reset-button {
+    margin-top: 80px;
+    width: 30vw;
+    height: 8vh;
+    font-size: 5vw;
+  }
+}
+@media (min-width: 851px) and (max-width: 1024px) {
+  main {
+    margin-top: 110px;
+  }
+  .playagain-button {
+    width: 30vw;
+    height: 7vh;
+    font-size: 4vw;
+  }
+  #msg {
+    font-size: 4vw;
+  }
+  .msg-container {
+    font-size: 10vw;
+    margin-top: 50px;
+  }
+  .heading {
+    font-size: 15vw;
+    margin-bottom: 50px;
+  }
+  .container {
+    height: 50vh;
+  }
+  .reset-button {
+    margin-top: 80px;
+    width: 30vw;
+    height: 8vh;
+    font-size: 5vw;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  main {
+    margin-top: 100px;
+  }
+  .playagain-button {
+    width: 35vw;
+    height: 9vh;
+    font-size: 4vw;
+  }
+  .msg-container {
+    font-size: 10vw;
+    margin-top: 50px;
+  }
+  .heading {
+    font-size: 8vw;
+    margin-top: -96px;
+  }
+  .container {
+    height: 60vh;
+  }
+  .reset-button {
+    margin-top: 80px;
+    width: 35vw;
+    height: 9vh;
+    font-size: 4vw;
+  }
+}
